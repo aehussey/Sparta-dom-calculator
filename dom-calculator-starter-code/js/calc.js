@@ -3,7 +3,6 @@ var screen = document.getElementById('screen');
 
 
 var buttons = document.getElementsByClassName("buttonNum")
-  console.log(buttons);
 for (var i = 0; i < buttons.length; i++) {
   var button = buttons[i];
 
@@ -31,6 +30,7 @@ for (var i = 0; i < operators.length; i++) {
 }
 
 // AC
+
 var ac = document.getElementsByClassName("buttonClear")[0];
 
 ac.addEventListener("click", function (event) {
