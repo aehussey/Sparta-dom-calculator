@@ -1,1 +1,0 @@
-# Sparta-dom-calculator
