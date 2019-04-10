@@ -35,7 +35,8 @@ var ac = document.getElementsByClassName("buttonClear")[0];
 
 ac.addEventListener("click", function (event) {
 
-  screen.innerHTML = " ";
+  sum = "";
+  screen.innerHTML = sum;
 })
 
 
